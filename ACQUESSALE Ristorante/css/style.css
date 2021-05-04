@@ -1,0 +1,136 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+body {
+  font-family: 'Noticia Text', serif;
+}
+nav ul a,
+nav .brand-logo {
+  color: #ffff;
+}
+
+nav .brand-logo {
+  font-family: 'Noticia Text', serif;
+}
+
+.nav-wrapper {
+  padding: 0 35px;
+}
+
+.btn-large {
+  color: #000000 ;
+}
+.btn-prenotazione {
+  color: #000000 ;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #ffffff;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+ 
+ .section-intro {
+ 
+
+ }
+
+.header {
+  margin-top: 15%;
+}
+
+.header-subtitle {
+  margin-top: 15%;
+  font-size: 1.3em;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+ 
+ .nav-wrapper {
+  padding: 0 5px;
+
+  }
+
+ nav .brand-logo {
+    font-family: 'Noticia Text', serif;
+    font-size: 19px;
+    text-align: center;
+  }
+ .brand-logo {
+  width: 100%;
+
+  }
+}
+
+.col-servizi {
+ margin-top: 60px;
+ margin-bottom: 100px;
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+ {
+
+}
+
+.prenotazione-icon {
+  font-size: 7em;
+  margin-top: 60px;
+  padding: 20px;
+}
+
+.section-prenotazione {
+
+
+}
+
+.btn-prenotazione {
+  width: 100%;
+}
+footer.page-footer {
+  margin: 0;
+  background-color: #00897b; 
+}
+
+.social-icon {
+  font-size: 1.5em;
+  color: #ffff8d;
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+
+.social-icon:hover {
+  color: #212121;
+} 
